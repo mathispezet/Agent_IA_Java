@@ -49,7 +49,7 @@ src/main/java/fr/cours/projkilmat/
 Avant de lancer le projet, assurez-vous d'avoir installé les éléments suivants :
 
 1.  **JDK 17** ou supérieur.
-2.  **Maven** (pour la gestion des dépendances et la construction du projet).
+2.  **Gradle** (pour la gestion des dépendances et la construction du projet).
 3.  **Ollama** : Suivez les instructions sur [ollama.com](https://ollama.com/) pour l'installer sur votre système.
 
 ## 5. Installation et Lancement
@@ -68,9 +68,9 @@ Avant de lancer le projet, assurez-vous d'avoir installé les éléments suivant
     **Important** : Assurez-vous que l'application Ollama est en cours d'exécution avant de lancer le projet Java.
 
 3.  **Compiler le projet**
-    Utilisez Maven pour télécharger les dépendances et compiler le code source :
+    Utilisez Gradle pour télécharger les dépendances et compiler le code source :
     ```sh
-    mvn clean install
+    gradlew clean build
     ```
 
 4.  **Exécuter l'application**
