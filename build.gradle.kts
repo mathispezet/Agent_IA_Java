@@ -1,6 +1,7 @@
 plugins {
     id("application")
     id("java")
+    id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
 group = "fr.cours"
@@ -28,8 +29,6 @@ tasks.test {
     useJUnitPlatform()
 }
 
-tasks.jar {
-    manifest {
-        attributes["Main-Class"] = application.mainClass.get()
-    }
+tasks.named("build") {
+    dependsOn(tasks.named("shadowJar"))
 }
