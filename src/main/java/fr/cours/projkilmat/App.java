@@ -19,7 +19,7 @@ public class App {
         // Cet objet contient les paramètres pour se connecter au modèle de langage (LLM).
         AgentConfig config = AgentConfig.builder()
                 .baseUrl("http://localhost:11434/") // L'URL de base de l'API du modèle
-                .modelName("gemma3")                   // Le nom du modèle à utiliser
+                .modelName("gemma3:1b")                   // Le nom du modèle à utiliser
                 .timeout(Duration.ofMinutes(2))    // Le temps d'attente maximum pour une réponse
                 .build();
 
