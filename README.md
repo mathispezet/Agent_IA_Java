@@ -98,4 +98,7 @@ Entrez un sujet Java à réviser (ou 'quitter') :
 * Rajouter la gestion de la difficulté pour les QCM ( par exemple en ajoutant un paramêtre difficulty )
 * Permettre à l'utilisateur de choisir le nombre de questions pour le QCM
 * Rajouter le streaming ( actuellement la réponse apparait d'un coup )
-* Gerer l'import et l'analyse de fichier 
+* Contact de service externe ( ex: quel temps il fait => va chercher la météo )
+* Outils de lecture de fichier local, on lui donne le chemin vers le fichier, il détecte la présence d'un chemin d'acces dans le prompt et traite le contenu du fichier
+* On doit pouvoir interagir avec l'agent => rajout de mémoire / contexte
+
