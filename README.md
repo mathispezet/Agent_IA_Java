@@ -93,6 +93,9 @@ Entrez un sujet Java à réviser (ou 'quitter') :
 *   L'agent affichera d'abord une explication, puis générera un QCM sur ce sujet.
 *   Pour arrêter le programme, tapez `quitter` et appuyez sur `Entrée`.
 
-# TODO
+# 7. Pistes d'améliorations
 
-Gerer l'import et l'analyse de fichier 
+* Rajouter la gestion de la difficulté pour les QCM ( par exemple en ajoutant un paramêtre difficulty )
+* Permettre à l'utilisateur de choisir le nombre de questions pour le QCM
+* Rajouter le streaming ( actuellement la réponse apparait d'un coup )
+* Gerer l'import et l'analyse de fichier 
